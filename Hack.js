@@ -4,8 +4,8 @@ if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webs
 
 document.head.innerHTML = `
 <style>
-tr:nth-child(even){background-color: dodgerblue;}
-tr:hover {background-color: #ddd;}
+tr:nth-child(even){background-color: DodgerBlue;}
+tr:hover {background-color: DodgerBlue;}
 td, th {
   border: 1px solid #ddd;
   padding: 8px;
