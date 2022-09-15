@@ -39,8 +39,8 @@ td, th {
   content: "";
   height: 17px;
   width: 17px;
-  left: 6px;
-  bottom: 6px;
+  left: 3px;
+  bottom: 3px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
@@ -49,7 +49,7 @@ input:checked + .slider {
   background-color: #0d0d0d;
 }
 input:focus + .slider {
-  box-shadow: 0 0 3px #0d0d0d;
+  box-shadow: 0 0 1px #0d0d0d;
 }
 input:checked + .slider:before {
   -webkit-transform: translateX(17px);
