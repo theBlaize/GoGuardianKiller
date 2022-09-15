@@ -39,8 +39,8 @@ td, th {
   content: "";
   height: 17px;
   width: 17px;
-  left: 3px;
-  bottom: 3px;
+  left: 1px;
+  bottom: 1px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
