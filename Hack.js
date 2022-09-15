@@ -4,8 +4,8 @@ if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webs
 
 document.head.innerHTML = `
 <style>
-tr:nth-child(even){background-color: DodgerBlue;}
-tr:hover {background-color: #595454;}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
 td, th {
   border: 1px solid #ddd;
   padding: 8px;
@@ -31,25 +31,25 @@ td, th {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: 1.0s;
-  transition: 1.0s;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 .slider:before {
   position: absolute;
   content: "";
   height: 17px;
   width: 17px;
-  left: 1px;
-  bottom: 1px;
+  left: 3px;
+  bottom: 3px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
 }
 input:checked + .slider {
-  background-color: #0d0d0d;
+  background-color: #2196F3;
 }
 input:focus + .slider {
-  box-shadow: 0 0 1px #0d0d0d;
+  box-shadow: 0 0 1px #2196F3;
 }
 input:checked + .slider:before {
   -webkit-transform: translateX(17px);
