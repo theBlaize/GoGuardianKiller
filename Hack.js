@@ -4,7 +4,7 @@ if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webs
 
 document.head.innerHTML = `
 <style>
-tr:nth-child(even){background-color: #f2f2f2;}
+tr:nth-child(even){background-color: dodgerblue;}
 tr:hover {background-color: #ddd;}
 td, th {
   border: 1px solid #ddd;
