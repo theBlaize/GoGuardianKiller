@@ -37,8 +37,8 @@ td, th {
 .slider:before {
   position: absolute;
   content: "";
-  height: 30px;
-  width: 30px;
+  height: 17px;
+  width: 17px;
   left: 6px;
   bottom: 6px;
   background-color: white;
